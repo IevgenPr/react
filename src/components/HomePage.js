@@ -1,6 +1,7 @@
 import React from "react";
 //import { func } from "prop-types";
 
+// function component
 function HomePage() {
   return (
     <div className="jumbotron">
