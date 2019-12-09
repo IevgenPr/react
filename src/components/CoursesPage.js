@@ -7,9 +7,7 @@ class CoursesPage extends React.Component {
   };
 
   componentDidMount() {
-    getCourses().then(function(courses) {
-      this.setState({ courses: courses });
-    });
+    getCourses().then(courses => this.setState({ courses: courses }));
   }
 
   render() {
